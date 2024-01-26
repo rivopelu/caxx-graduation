@@ -3,6 +3,12 @@ html {
   font-family: 'Lato', sans-serif;
 }
 
+html,body {
+  height:  100%;
+  width: 100%;
+  overflow: hidden;
+}
+
 
 .font-1 {
   font-family: 'Great Vibes', cursive;
