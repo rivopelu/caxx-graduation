@@ -1,4 +1,5 @@
 import { Container } from "./components/Container.tsx";
+import { ImageContainer } from "./components/ImageContainer.tsx";
 
 function App() {
   return (
@@ -8,18 +9,25 @@ function App() {
           <Container>
             <div className={"flex flex-col items-center justify-center gap-10"}>
               <h1
-                className={"font-1 w-full  text-4xl text-center text-amber-600"}
+                className={
+                  "font-1 w-full  text-3xl  text-center text-primary-dark"
+                }
               >
-                Happy Graduation
+                Happy Graduation Sayang
               </h1>
 
-              <img
-                className={"w-[80%]  rounded-md"}
-                src={"/cax.png"}
-                alt={"cax"}
-              />
-              <div className={"font-bold text-xl text-center"}>
-                Ns. Tessalonika M. Laluraga S.Kep
+              <ImageContainer />
+              <div className={"text-center"}>
+                <div className={"font-bold text-xl text-center"}>
+                  Ns. Tessalonika M. Laluraga S.Kep
+                </div>
+                <div>
+                  wish you all the best in your new chapter. May you have a
+                  successful and fulfilling career.
+                </div>
+                <div className={"text-sm mt-3 text-slate-900/40"}>
+                  from your bear🧸❤️
+                </div>
               </div>
             </div>
           </Container>
@@ -27,12 +35,12 @@ function App() {
       </div>
       <div
         className={
-          "h-96 w-96 bg-primary-1/30 rounded-full absolute top-[-20%] left-[-30%] z-10"
+          "h-96 w-96 bg-primary-1/20 rounded-full absolute top-[-20%] left-[-30%] z-10"
         }
       />
       <div
         className={
-          "h-56 w-56 bg-primary-1/20 rounded-full absolute bottom-[3%] right-[-20%] z-10"
+          "h-56 w-56 bg-primary-1/10 rounded-full absolute bottom-[3%] right-[-20%] z-10"
         }
       />
     </div>
