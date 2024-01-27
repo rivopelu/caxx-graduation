@@ -67,14 +67,15 @@ function App() {
               "h-screen bg-background flex items-center justify-center flex-col"
             }
           >
-            <h1
-              data-aos="fade-up"
-              className={
-                "font-1 w-full  text-3xl  text-center text-primary-dark"
-              }
-            >
-              Happy Graduation Eca Sayang
-            </h1>
+            {/*<h1*/}
+            {/*  data-aos="fade-up"*/}
+            {/*  className={*/}
+            {/*    "font-1 w-full  text-3xl  text-center text-primary-dark"*/}
+            {/*  }*/}
+            {/*>*/}
+            {/*  Happy Graduation Eca Sayang*/}
+            {/*</h1>*/}
+            <img src={"/onboard.png"} className={"h-[40%]"} alt={"onboard"} />
             <div className={"mt-5"}>
               <div
                 data-aos="fade-up"
@@ -113,7 +114,7 @@ function App() {
                       className={"font-bold text-xl text-center"}
                       data-aos="zoom-in"
                     >
-                      Ns. Tessalonika M. Laluraga S.Kep
+                      Ns. Tesalonika M. Laluraga S.Kep
                     </div>
                     <div data-aos="zoom-out-up" data-aos-delay="1300">
                       wish you all the best in your new chapter. May you have a
